@@ -1,4 +1,4 @@
-# VMware Cloud Foundation – Architecture Poster (Index)
+# VMware Cloud Foundation – Architecture Poster
 
 This repository provides a clean, curated **index to the official VMware Cloud Foundation (VCF) Architecture Poster** and related resources.
 
