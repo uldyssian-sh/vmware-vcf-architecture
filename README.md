@@ -56,3 +56,11 @@ Feel free to open a PR to:
 - Update the official poster link if VMware changes URLs.
 - Add official VMware blog entries announcing new poster revisions.
 - Fix typos or improve wording.
+
+## 👨‍💻 Author
+
+**LT** - [GitHub Profile](https://github.com/uldyssian-sh)
+
+---
+
+*Enterprise-ready repository with automated workflows and security features.*
