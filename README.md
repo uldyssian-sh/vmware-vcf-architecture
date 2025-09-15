@@ -2,8 +2,8 @@
 
 This repository provides a clean, curated **index to the official VMware Cloud Foundation (VCF) Architecture Poster** and related resources.
 
-> **Note**  
-> The **poster PDF is copyright protected** and is **not stored in this repository**.  
+> **Note**
+> The **poster PDF is copyright protected** and is **not stored in this repository**.
 > Please download the poster from VMware’s official website.
 
 ---
@@ -15,12 +15,12 @@ The VCF Architecture Poster is a single-page visual guide that outlines the key 
 
 ## 🔗 Official Poster (Download & Details)
 
-- **VMware Cloud Foundation – Architecture Poster (official PDF)**  
+- **VMware Cloud Foundation – Architecture Poster (official PDF)**
   👉 https://www.vmware.com/docs/vmware-cloud-foundation-architecture-poster
 
 If you prefer a blog overview (what’s new and context):
-- **VMware Cloud Foundation Blog – “Architecture Poster” (VCF 9 updates)**  
-  Provides highlights such as fleet management model and QR codes to related resources.  
+- **VMware Cloud Foundation Blog – “Architecture Poster” (VCF 9 updates)**
+  Provides highlights such as fleet management model and QR codes to related resources.
   (See recent VCF blog announcements.)
 
 ---
@@ -39,14 +39,14 @@ If you prefer a blog overview (what’s new and context):
 
 ## ⚖️ Copyright & Usage
 
-- **© 2025 Broadcom, Inc. All rights reserved.**  
-  The poster PDF and imagery are owned by VMware/Broadcom and are **not redistributed here**.  
+- **© 2025 Broadcom, Inc. All rights reserved.**
+  The poster PDF and imagery are owned by VMware/Broadcom and are **not redistributed here**.
   This repository only provides **links** to the official sources.
 
 ---
 
 ## 📄 License (for this repository)
-The contents of *this* repository (the README and curated link list) are released under the MIT License.  
+The contents of *this* repository (the README and curated link list) are released under the MIT License.
 See [LICENSE](./LICENSE) for details.
 
 ---
