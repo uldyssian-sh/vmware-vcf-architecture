@@ -551,6 +551,7 @@ pytest --cov=. --cov-report=html --cov-report=term
 pytest tests/performance/ --benchmark-only
 ```
 
+
 ### 🔍 **Advanced Testing**
 
 ```bash
@@ -825,6 +826,6 @@ copies or substantial portions of the Software.
 [![Star](https://img.shields.io/github/stars/uldyssian-sh/vmware-vcf-architecture?style=social)](https://github.com/uldyssian-sh/vmware-vcf-architecture)
 [![Watch](https://img.shields.io/github/watchers/uldyssian-sh/vmware-vcf-architecture?style=social)](https://github.com/uldyssian-sh/vmware-vcf-architecture)
 
-*Last updated: $(date +'%B %d, %Y') | Version: 1.0.0 | Status: ✅ Production Ready*
+*Last updated: September 18, 2024 | Version: 1.0.0 | Status: ✅ Production Ready*
 
 </div>
