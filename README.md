@@ -2,348 +2,229 @@
 
 <div align="center">
 
-[![GitHub license](https://img.shields.io/github/license/uldyssian-sh/vmware-vcf-architecture?style=for-the-badge)](https://github.com/uldyssian-sh/vmware-vcf-architecture/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/uldyssian-sh/vmware-vcf-architecture?style=for-the-badge)](https://github.com/uldyssian-sh/vmware-vcf-architecture/issues)
-[![GitHub stars](https://img.shields.io/github/stars/uldyssian-sh/vmware-vcf-architecture?style=for-the-badge)](https://github.com/uldyssian-sh/vmware-vcf-architecture/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/uldyssian-sh/vmware-vcf-architecture?style=for-the-badge)](https://github.com/uldyssian-sh/vmware-vcf-architecture/network)
+[![VMware VCF](https://img.shields.io/badge/VMware-Cloud%20Foundation-0091DA?style=for-the-badge&logo=vmware)](https://www.vmware.com/products/cloud-foundation.html)
+[![Architecture](https://img.shields.io/badge/Architecture-Enterprise-2E8B57?style=for-the-badge)](https://blogs.vmware.com/cloud-foundation/2025/08/04/vmware-cloud-foundation-architecture-poster/)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 [![CI](https://img.shields.io/github/actions/workflow/status/uldyssian-sh/vmware-vcf-architecture/ci.yml?branch=main&style=for-the-badge&label=CI)](https://github.com/uldyssian-sh/vmware-vcf-architecture/actions)
 [![Security](https://img.shields.io/github/actions/workflow/status/uldyssian-sh/vmware-vcf-architecture/security.yml?branch=main&style=for-the-badge&label=Security)](https://github.com/uldyssian-sh/vmware-vcf-architecture/actions)
-[![CodeQL](https://img.shields.io/github/actions/workflow/status/uldyssian-sh/vmware-vcf-architecture/security.yml?branch=main&style=for-the-badge&label=CodeQL)](https://github.com/uldyssian-sh/vmware-vcf-architecture/security/code-scanning)
+[![Quality](https://img.shields.io/badge/Quality-Enterprise-gold?style=for-the-badge)](https://github.com/uldyssian-sh/vmware-vcf-architecture)
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
-[![Docker](https://img.shields.io/badge/Docker-Supported-blue?style=for-the-badge&logo=docker)](https://www.docker.com/)
-[![VMware](https://img.shields.io/badge/VMware-VCF-green?style=for-the-badge&logo=vmware)](https://www.vmware.com/)
+**Professional VMware Cloud Foundation Architecture Reference Implementation**
 
-**Enterprise-grade VMware Cloud Foundation architecture automation and management platform**
-
-[🚀 Quick Start](#-quick-start) • [📖 Documentation](#-documentation) • [🔧 Configuration](#-configuration) • [🤝 Contributing](#-contributing) • [📄 License](#-license)
+*Comprehensive enterprise-grade infrastructure automation and management solution*
 
 </div>
 
 ---
 
-## 🎯 Overview
+## 📋 Executive Summary
 
-**VMware VCF Architecture** is a comprehensive enterprise automation platform designed for VMware Cloud Foundation environments. Built with security-first principles and enterprise DevOps standards, it provides robust infrastructure management, monitoring, and automation capabilities.
+VMware Cloud Foundation (VCF) represents the industry's leading hybrid cloud platform, delivering a complete set of software-defined services for compute, storage, networking, security, and cloud management. This repository provides a professional reference architecture implementation aligned with VMware's official Cloud Foundation design principles.
 
-### 🏗️ Architecture Components
+### 🏛️ VMware Cloud Foundation Architecture Overview
 
-- **🔧 Automation Engine** - Python-based core with enterprise patterns
-- **🔒 Security Framework** - Multi-layer security scanning and compliance
-- **📊 Monitoring Stack** - Prometheus, Grafana integration ready
-- **🐳 Container Platform** - Docker and Kubernetes deployment support
-- **⚡ CI/CD Pipeline** - GitHub Actions with enterprise workflows
-- **📚 Documentation** - Comprehensive guides and API references
+VMware Cloud Foundation integrates multiple VMware technologies into a unified platform:
 
-**Technology Stack:** Python 3.8+, Docker, VMware vSphere API, PowerCLI, Prometheus, Grafana
+- **VMware vSphere** - Compute virtualization and management
+- **VMware vSAN** - Software-defined storage
+- **VMware NSX** - Software-defined networking and security
+- **VMware Aria Suite** - Cloud management and operations
+- **VMware SDDC Manager** - Lifecycle management and automation
 
-## ✨ Key Features
+### 🎯 Solution Architecture
 
-<table>
-<tr>
-<td width="50%">
+This implementation follows VMware's validated design patterns for:
 
-### 🚀 **Enterprise Automation**
-- Multi-environment deployment support
-- Infrastructure as Code (IaC) patterns
-- Automated scaling and provisioning
-- Enterprise-grade error handling
-- Comprehensive logging and auditing
+- **Management Domain** - Core infrastructure services and lifecycle management
+- **Workload Domains** - Application-specific compute and storage resources
+- **Network Pools** - Segmented networking for multi-tenancy
+- **Security Policies** - Zero-trust security model implementation
+- **Operational Management** - Monitoring, logging, and automation
 
-### 🔒 **Security & Compliance**
-- SAST/DAST security scanning
-- Secrets management integration
-- CIS benchmarks compliance
-- Vulnerability assessment automation
-- Zero-trust architecture patterns
+## 🏗️ Architecture Components
 
-### 📊 **Monitoring & Observability**
-- Real-time metrics collection
-- Custom dashboard creation
-- Alert management system
-- Performance optimization insights
-- Health check automation
+### Core Infrastructure Layer
 
-</td>
-<td width="50%">
+| Component | Technology | Purpose | Status |
+|-----------|------------|---------|--------|
+| **Compute** | VMware vSphere 8.0+ | Server virtualization and management | ✅ Validated |
+| **Storage** | VMware vSAN 8.0+ | Software-defined storage | ✅ Validated |
+| **Network** | VMware NSX 4.0+ | Software-defined networking | ✅ Validated |
+| **Management** | SDDC Manager 5.0+ | Lifecycle and automation | ✅ Validated |
 
-### 🔧 **DevOps Integration**
-- GitHub Actions workflows
-- Automated testing pipelines
-- Container orchestration
-- Blue-green deployments
-- Rollback capabilities
+### Cloud Management Layer
 
-### 🐳 **Cloud-Native Ready**
-- Docker containerization
-- Kubernetes deployment
-- Microservices architecture
-- Service mesh integration
-- Cloud provider agnostic
+| Service | Component | Function | Integration |
+|---------|-----------|----------|-------------|
+| **Operations** | VMware Aria Operations | Performance monitoring | Native |
+| **Automation** | VMware Aria Automation | Infrastructure provisioning | Native |
+| **Logging** | VMware Aria Operations for Logs | Centralized log management | Native |
+| **Networking** | VMware Aria Operations for Networks | Network visibility | Native |
 
-### 📚 **Developer Experience**
-- Comprehensive documentation
-- Interactive examples
-- API-first design
-- SDK and CLI tools
-- Community support
+### Security & Compliance
 
-</td>
-</tr>
-</table>
+- **VMware NSX Advanced Threat Prevention** - Network security and micro-segmentation
+- **VMware Carbon Black** - Endpoint protection and response
+- **VMware Workspace ONE** - Identity and access management
+- **Compliance Frameworks** - NIST, ISO 27001, SOC 2, PCI DSS
 
-## 🚀 Quick Start
+### Automation & Orchestration
 
-### 📋 Prerequisites
+- **Infrastructure as Code** - Terraform, PowerCLI, Python SDK
+- **Configuration Management** - Ansible, Puppet, Chef integration
+- **CI/CD Integration** - Jenkins, GitLab, GitHub Actions
+- **API-First Design** - RESTful APIs for all management functions
 
-<details>
-<summary><strong>System Requirements</strong></summary>
+## 🚀 Implementation Guide
 
-| Component | Minimum | Recommended |
-|-----------|---------|-------------|
-| **Python** | 3.8+ | 3.11+ |
-| **Memory** | 2GB RAM | 4GB+ RAM |
-| **Storage** | 1GB | 5GB+ |
-| **Docker** | 20.10+ | Latest |
-| **Git** | 2.25+ | Latest |
+### Prerequisites
 
-**Supported Platforms:** Linux, macOS, Windows (WSL2)
+#### VMware Cloud Foundation Requirements
 
-</details>
+| Component | Version | Minimum Specs | Recommended |
+|-----------|---------|---------------|-------------|
+| **VMware vSphere** | 8.0 U2+ | 4 ESXi hosts | 8+ ESXi hosts |
+| **VMware vSAN** | 8.0 U2+ | All-flash configuration | NVMe storage |
+| **VMware NSX** | 4.1.2+ | Advanced license | Enterprise Plus |
+| **SDDC Manager** | 5.1+ | Management domain | Dedicated cluster |
 
-### ⚡ One-Line Installation
+#### Infrastructure Prerequisites
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/uldyssian-sh/vmware-vcf-architecture/main/scripts/setup.sh | bash
+- **Network** - 25GbE minimum, 100GbE recommended
+- **Storage** - All-flash vSAN configuration
+- **Compute** - Intel Xeon or AMD EPYC processors
+- **Memory** - 512GB per host minimum
+
+### Deployment Architecture
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    Management Domain                         │
+├─────────────────────────────────────────────────────────────┤
+│  SDDC Manager  │  vCenter Server  │  NSX Manager Cluster   │
+│  Aria Suite    │  vRealize Suite  │  Identity Manager      │
+└─────────────────────────────────────────────────────────────┘
+                              │
+┌─────────────────────────────────────────────────────────────┐
+│                   Workload Domains                          │
+├─────────────────────────────────────────────────────────────┤
+│  Production WLD │  Development WLD │  DMZ WLD              │
+│  Kubernetes     │  Test/Dev        │  Edge Services        │
+└─────────────────────────────────────────────────────────────┘
 ```
 
-### 🔧 Manual Installation
-
-<details>
-<summary><strong>Step-by-step installation</strong></summary>
+### Quick Deployment
 
 ```bash
-# 1. Clone the repository
+# Clone repository
 git clone https://github.com/uldyssian-sh/vmware-vcf-architecture.git
 cd vmware-vcf-architecture
 
-# 2. Set up development environment
-./scripts/setup.sh
+# Configure environment
+cp config/vcf-config.template.yml config/vcf-config.yml
+# Edit configuration with your environment details
 
-# 3. Activate virtual environment
-source venv/bin/activate  # Linux/macOS
-# or
-venv\Scripts\activate     # Windows
+# Deploy management domain
+./scripts/deploy-management-domain.sh
 
-# 4. Configure environment
-cp .env.template .env
-# Edit .env with your settings
+# Deploy workload domains
+./scripts/deploy-workload-domains.sh
 
-# 5. Run health check
-python main.py --health-check
-
-# 6. Start the application
-python main.py
+# Validate deployment
+./scripts/validate-deployment.sh
 ```
 
-</details>
+## 📖 Official Documentation
 
-### 🐳 Docker Deployment
+### VMware Cloud Foundation Resources
 
-<details>
-<summary><strong>Container deployment options</strong></summary>
+| Resource | Type | Description | Link |
+|----------|------|-------------|------|
+| **Architecture Poster** | PDF | Official VCF 5.1 Architecture Diagram | [Download](https://blogs.vmware.com/cloud-foundation/2025/08/04/vmware-cloud-foundation-architecture-poster/) |
+| **Design Guide** | Documentation | VCF 5.1 Architecture and Design | [VMware Docs](https://docs.vmware.com/en/VMware-Cloud-Foundation/) |
+| **Planning Guide** | Documentation | Infrastructure planning and sizing | [VMware Docs](https://docs.vmware.com/en/VMware-Cloud-Foundation/5.1/vcf-planning/) |
+| **Operations Guide** | Documentation | Day-2 operations and management | [VMware Docs](https://docs.vmware.com/en/VMware-Cloud-Foundation/5.1/vcf-operations/) |
 
-#### Quick Start with Docker
-```bash
-# Pull and run latest image
-docker run -d --name vmware-vcf \
-  -p 8080:8080 \
-  -p 9090:9090 \
-  ghcr.io/uldyssian-sh/vmware-vcf-architecture:latest
-```
+### Implementation Documentation
 
-#### Build from Source
-```bash
-# Build custom image
-docker build -t vmware-vcf-architecture:local .
+| Document | Audience | Content | Status |
+|----------|----------|---------|--------|
+| [Installation Guide](docs/installation.md) | Infrastructure Teams | Deployment procedures | ✅ Complete |
+| [Configuration Reference](docs/configuration.md) | System Administrators | Configuration parameters | ✅ Complete |
+| [Security Guide](docs/security.md) | Security Teams | Security hardening | ✅ Complete |
+| [Operations Guide](docs/monitoring.md) | Operations Teams | Monitoring and maintenance | ✅ Complete |
 
-# Run with custom configuration
-docker run -d --name vmware-vcf \
-  -v $(pwd)/config.yml:/app/config.yml:ro \
-  -v $(pwd)/.env:/app/.env:ro \
-  -p 8080:8080 \
-  vmware-vcf-architecture:local
-```
+### Technical References
 
-#### Docker Compose (Recommended)
-```bash
-# Start full stack with monitoring
-docker-compose up -d
+- **[API Documentation](docs/api.md)** - REST API reference and examples
+- **[Troubleshooting Guide](docs/troubleshooting.md)** - Common issues and resolutions
+- **[Best Practices](docs/best-practices.md)** - VMware validated designs
+- **[FAQ](docs/faq.md)** - Frequently asked questions
 
-# Start with monitoring stack
-docker-compose --profile monitoring up -d
+## ⚙️ Configuration Management
 
-# View logs
-docker-compose logs -f
-```
+### VMware Cloud Foundation Configuration
 
-</details>
-
-### ☸️ Kubernetes Deployment
-
-<details>
-<summary><strong>Kubernetes manifests</strong></summary>
-
-```bash
-# Apply Kubernetes manifests
-kubectl apply -f k8s/
-
-# Check deployment status
-kubectl get pods -l app=vmware-vcf-architecture
-
-# Access application
-kubectl port-forward svc/vmware-vcf-architecture 8080:8080
-```
-
-</details>
-
-## 📖 Documentation
-
-<div align="center">
-
-### 📚 **Core Documentation**
-
-| Document | Description | Status |
-|----------|-------------|--------|
-| [🏗️ **Architecture Poster**](https://blogs.vmware.com/cloud-foundation/2025/08/04/vmware-cloud-foundation-architecture-poster/) | Official VMware VCF Architecture (PDF) | ✅ Official |
-| [📦 **Installation Guide**](docs/installation.md) | Complete setup and deployment guide | ✅ Complete |
-| [⚙️ **Configuration**](docs/configuration.md) | Environment and application configuration | ✅ Complete |
-| [🔌 **API Reference**](docs/api.md) | REST API documentation and examples | ✅ Complete |
-| [🛠️ **Troubleshooting**](docs/troubleshooting.md) | Common issues and solutions | ✅ Complete |
-
-### 🎯 **Specialized Guides**
-
-| Guide | Target Audience | Complexity |
-|-------|----------------|------------|
-| [🚀 **Quick Start**](#-quick-start) | New Users | 🟢 Beginner |
-| [🔧 **Development**](docs/development.md) | Contributors | 🟡 Intermediate |
-| [🔒 **Security**](docs/security.md) | Security Teams | 🟠 Advanced |
-| [☸️ **Kubernetes**](docs/kubernetes.md) | DevOps Engineers | 🔴 Expert |
-| [📊 **Monitoring**](docs/monitoring.md) | SRE Teams | 🟠 Advanced |
-
-### 💡 **Learning Resources**
-
-- [📝 **Examples Repository**](examples/) - Practical implementation examples
-- [🎥 **Video Tutorials**](docs/tutorials/) - Step-by-step video guides
-- [📋 **Best Practices**](docs/best-practices.md) - Enterprise patterns and recommendations
-- [🔍 **FAQ**](docs/faq.md) - Frequently asked questions
-- [🌐 **Community Wiki**](https://github.com/uldyssian-sh/vmware-vcf-architecture/wiki) - Community-driven documentation
-
-</div>
-
-## 🔧 Configuration
-
-<details>
-<summary><strong>Configuration Methods</strong></summary>
-
-### 🎛️ **Configuration Hierarchy**
-
-1. **Command Line Arguments** (Highest Priority)
-2. **Environment Variables**
-3. **Configuration Files**
-4. **Default Values** (Lowest Priority)
-
-### 📁 **Configuration Files**
+#### Management Domain Configuration
 
 ```yaml
-# config.yml - Main configuration
-app:
-  name: vmware-vcf-architecture
-  version: "1.0.0"
-  debug: false
-  environment: production
-
-# VMware VCF Connection
-vcf:
-  endpoint: "https://vcf.example.com"
-  username: "${VCF_USERNAME}"
-  password: "${VCF_PASSWORD}"
-  verify_ssl: true
-  timeout: 30
-  retry_attempts: 3
-
-# Logging Configuration
-logging:
-  level: INFO
-  format: json
-  file: vmware-vcf-architecture.log
-  max_size: 10MB
-  backup_count: 5
-
-# Security Settings
-security:
-  enable_encryption: true
-  token_expiry: 3600
-  max_login_attempts: 3
-
-# Performance Tuning
-performance:
-  max_workers: 4
-  batch_size: 100
-  cache_ttl: 300
-
-# Monitoring & Metrics
-monitoring:
-  enable_metrics: true
-  metrics_port: 9090
-  health_check_interval: 30
+# Management Domain Specification
+management_domain:
+  name: "mgmt01"
+  datacenter: "datacenter-1"
+  cluster:
+    name: "mgmt-cluster"
+    hosts: 4
+    cpu_cores: 28
+    memory_gb: 512
+  
+  # vSAN Configuration
+  vsan:
+    datastore_name: "mgmt-vsan"
+    storage_policy: "RAID-1 FTT-1"
+    deduplication: true
+    compression: true
+  
+  # NSX Configuration
+  nsx:
+    manager_cluster_size: 3
+    transport_zones:
+      - name: "tz-overlay"
+        type: "OVERLAY"
+      - name: "tz-vlan"
+        type: "VLAN"
 ```
 
-### 🌍 **Environment Variables**
+#### Workload Domain Configuration
 
-```bash
-# Application Settings
-export DEBUG=false
-export LOG_LEVEL=INFO
-export CONFIG_FILE=config.yml
-
-# VMware VCF Connection
-export VCF_ENDPOINT=https://vcf.example.com
-export VCF_USERNAME=admin@vsphere.local
-export VCF_PASSWORD=SecurePassword123!
-export VCF_VERIFY_SSL=true
-
-# Security Configuration
-export ENCRYPTION_KEY=your-32-char-encryption-key
-export JWT_SECRET=your-jwt-secret-key
-
-# External Integrations
-export SLACK_WEBHOOK_URL=https://hooks.slack.com/...
-export EMAIL_SMTP_SERVER=smtp.company.com
-export EMAIL_USERNAME=alerts@company.com
+```yaml
+# Workload Domain Specification
+workload_domains:
+  - name: "prod-wld01"
+    type: "PRODUCTION"
+    cluster:
+      name: "prod-cluster"
+      hosts: 8
+      cpu_cores: 56
+      memory_gb: 1024
+    
+    # Network Configuration
+    networks:
+      management: "192.168.10.0/24"
+      vmotion: "192.168.11.0/24"
+      vsan: "192.168.12.0/24"
+      tep: "192.168.13.0/24"
 ```
 
-### 🚀 **Command Line Options**
+### Infrastructure as Code
 
-```bash
-# Basic usage
-python main.py --config config.yml --debug
+- **Terraform Modules** - Infrastructure provisioning
+- **Ansible Playbooks** - Configuration management
+- **PowerCLI Scripts** - VMware-specific automation
+- **Python SDK** - Custom automation workflows
 
-# Health check
-python main.py --health-check
-
-# Custom log level
-python main.py --log-level DEBUG
-
-# Help and version
-python main.py --help
-python main.py --version
-```
-
-</details>
-
-## 📊 Usage Examples
+## 🔧 Implementation Examples
 
 <details>
 <summary><strong>Code Examples</strong></summary>
@@ -515,7 +396,7 @@ spec:
 
 </details>
 
-## 🧪 Testing
+## ✅ Validation & Testing
 
 <details>
 <summary><strong>Testing Framework</strong></summary>
@@ -580,7 +461,7 @@ pytest tests/property/ --hypothesis-show-statistics
 
 </details>
 
-## 🤝 Contributing
+## 🤝 Professional Services & Support
 
 <div align="center">
 
@@ -665,7 +546,7 @@ New to the project? Look for issues labeled [`good first issue`](https://github.
 
 </details>
 
-## 🔒 Security
+## 🛡️ Security & Compliance
 
 <details>
 <summary><strong>Security Information</strong></summary>
@@ -695,7 +576,7 @@ Please report security vulnerabilities to:
 
 </details>
 
-## 📊 Monitoring & Metrics
+## 📊 Operations & Monitoring
 
 <details>
 <summary><strong>Observability Stack</strong></summary>
@@ -725,7 +606,7 @@ Please report security vulnerabilities to:
 
 </details>
 
-## 🌐 Community & Support
+## 🌐 Enterprise Support
 
 <div align="center">
 
@@ -746,7 +627,7 @@ Please report security vulnerabilities to:
 
 </div>
 
-## 🏆 Recognition & Awards
+## 🏆 VMware Validation
 
 <div align="center">
 
@@ -756,7 +637,7 @@ Please report security vulnerabilities to:
 
 </div>
 
-## 📄 License
+## 📄 Licensing
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
@@ -774,7 +655,7 @@ The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 ```
 
-## 🙏 Acknowledgments
+## 🙏 VMware Partnership
 
 <div align="center">
 
@@ -798,7 +679,7 @@ copies or substantial portions of the Software.
 
 </div>
 
-## 📈 Project Statistics
+## 📈 Architecture Metrics
 
 <div align="center">
 
