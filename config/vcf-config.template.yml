@@ -1,0 +1,60 @@
+# VMware Cloud Foundation Configuration Template
+
+# Management Domain Configuration
+management_domain:
+  name: "mgmt01"
+  datacenter: "datacenter-1"
+  
+  # Cluster Configuration
+  cluster:
+    name: "mgmt-cluster"
+    hosts: 4
+    cpu_cores: 28
+    memory_gb: 512
+    
+  # vSAN Configuration
+  vsan:
+    datastore_name: "mgmt-vsan"
+    storage_policy: "RAID-1 FTT-1"
+    deduplication: true
+    compression: true
+    
+  # NSX Configuration
+  nsx:
+    manager_cluster_size: 3
+    transport_zones:
+      - name: "tz-overlay"
+        type: "OVERLAY"
+      - name: "tz-vlan"
+        type: "VLAN"
+
+# Workload Domains Configuration
+workload_domains:
+  - name: "prod-wld01"
+    type: "PRODUCTION"
+    cluster:
+      name: "prod-cluster"
+      hosts: 8
+      cpu_cores: 56
+      memory_gb: 1024
+      
+    # Network Configuration
+    networks:
+      management: "192.168.10.0/24"
+      vmotion: "192.168.11.0/24"
+      vsan: "192.168.12.0/24"
+      tep: "192.168.13.0/24"
+
+# SDDC Manager Configuration
+sddc_manager:
+  fqdn: "sddc-manager.example.com"
+  ip_address: "192.168.10.10"
+  root_password: "${SDDC_ROOT_PASSWORD}"
+  vcf_password: "${VCF_PASSWORD}"
+
+# vCenter Configuration
+vcenter:
+  fqdn: "vcenter.example.com"
+  ip_address: "192.168.10.11"
+  root_password: "${VCENTER_ROOT_PASSWORD}"
+  sso_password: "${SSO_PASSWORD}"
