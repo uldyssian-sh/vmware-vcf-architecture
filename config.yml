@@ -1,0 +1,41 @@
+# VMware VCF Architecture Configuration
+app:
+  name: vmware-vcf-architecture
+  version: "1.0.0"
+  debug: false
+  environment: production
+
+# Logging configuration
+logging:
+  level: INFO
+  format: json
+  file: vmware-vcf-architecture.log
+  max_size: 10MB
+  backup_count: 5
+
+# VMware VCF settings
+vcf:
+  endpoint: ""
+  username: ""
+  password: ""
+  verify_ssl: true
+  timeout: 30
+  retry_attempts: 3
+
+# Security settings
+security:
+  enable_encryption: true
+  token_expiry: 3600
+  max_login_attempts: 3
+
+# Performance settings
+performance:
+  max_workers: 4
+  batch_size: 100
+  cache_ttl: 300
+
+# Monitoring and metrics
+monitoring:
+  enable_metrics: true
+  metrics_port: 9090
+  health_check_interval: 30
