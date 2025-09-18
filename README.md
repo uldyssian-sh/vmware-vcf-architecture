@@ -57,6 +57,7 @@ docker run -p 8080:8080 vmware-vcf-architecture
 
 ## 📖 Documentation
 
+- [VMware Cloud Foundation Architecture Poster (PDF)](https://blogs.vmware.com/cloud-foundation/2025/08/04/vmware-cloud-foundation-architecture-poster/)
 - [Installation Guide](docs/installation.md)
 - [Configuration](docs/configuration.md)
 - [API Reference](docs/api.md)
