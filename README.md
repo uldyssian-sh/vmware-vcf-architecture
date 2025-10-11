@@ -710,3 +710,13 @@ copies or substantial portions of the Software.
 *Last updated: September 18, 2024 | Version: 1.0.0 | Status: ✅ Production Ready*
 
 </div>
+
+## Support
+
+- **Issues**: [GitHub Issues](https://github.com/uldyssian-sh/vmware-vcf-architecture/issues)
+- **Security**: [Security Policy](SECURITY.md)
+- **Contributing**: [Contributing Guidelines](CONTRIBUTING.md)
+
+---
+
+**⭐ Star this repository if you find it helpful!**
