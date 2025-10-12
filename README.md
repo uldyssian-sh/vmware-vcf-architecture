@@ -655,7 +655,7 @@ The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 ```
 
-## 🙏 VMware Partnership
+## 🙏 Acknowledgments
 
 <div align="center">
 
@@ -701,7 +701,7 @@ copies or substantial portions of the Software.
 
 <div align="center">
 
-**🚀 Made with ❤️ by [uldyssian-sh](https://github.com/uldyssian-sh) | Enterprise VMware Automation Platform**
+**🚀 Made with ❤️ by [uldyssian-sh](https://github.com/uldyssian-sh)**
 
 [![Follow](https://img.shields.io/github/followers/uldyssian-sh?style=social)](https://github.com/uldyssian-sh)
 [![Star](https://img.shields.io/github/stars/uldyssian-sh/vmware-vcf-architecture?style=social)](https://github.com/uldyssian-sh/vmware-vcf-architecture)
