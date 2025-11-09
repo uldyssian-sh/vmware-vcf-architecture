@@ -39,3 +39,4 @@ echo "Next steps:"
 echo "1. Access SDDC Manager at https://sddc-manager.example.com"
 echo "2. Deploy workload domains using ./scripts/deploy-workload-domains.sh"# Updated Sun Nov  9 12:49:47 CET 2025
 # Updated Sun Nov  9 12:52:31 CET 2025
+# Updated Sun Nov  9 12:56:20 CET 2025

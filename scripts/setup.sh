@@ -63,3 +63,4 @@ echo "2. Run 'source venv/bin/activate' to activate the virtual environment"
 echo "3. Run 'python main.py --health-check' to verify installation"
 echo "4. Run 'make help' to see available commands"# Updated Sun Nov  9 12:49:47 CET 2025
 # Updated Sun Nov  9 12:52:31 CET 2025
+# Updated Sun Nov  9 12:56:20 CET 2025
