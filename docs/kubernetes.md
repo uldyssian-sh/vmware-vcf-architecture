@@ -63,4 +63,4 @@ spec:
 
 - Prometheus metrics on port 9090
 - Health checks on /health endpoint
-- Grafana dashboards available
+- Grafana dashboards available# Updated 20251109_123823
