@@ -87,4 +87,3 @@ spec:
   - name: metrics
     port: 9090
     targetPort: 9090
-  type: ClusterIP# Updated 20251109_123823

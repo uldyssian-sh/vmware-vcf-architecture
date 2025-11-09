@@ -57,4 +57,3 @@ vcenter:
   fqdn: "vcenter.example.com"
   ip_address: "192.168.10.11"
   root_password: "${VCENTER_ROOT_PASSWORD}"
-  sso_password: "${SSO_PASSWORD}"# Updated 20251109_123823
