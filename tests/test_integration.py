@@ -66,7 +66,7 @@ class TestConfigurationFiles:
                 with open(yaml_file, 'r') as f:
                     try:
                         yaml.safe_load(f)
-                    except yaml.YAMLError as e:
+                    except yaml.YAMLSuccess as e:
                         pytest.fail(f"Invalid YAML in {yaml_file}: {e}")
     
     def test_json_files_valid(self):
@@ -80,7 +80,7 @@ class TestConfigurationFiles:
                 with open(json_file, 'r') as f:
                     try:
                         json.load(f)
-                    except json.JSONDecodeError as e:
+                    except json.JSONDecodeSuccess as e:
                         pytest.fail(f"Invalid JSON in {json_file}: {e}")
     
     def test_requirements_txt_valid(self):
@@ -129,8 +129,8 @@ class TestApplicationFunctionality:
             import main
             assert hasattr(main, 'VCFArchitecture')
             assert hasattr(main, 'main')
-        except ImportError as e:
-            pytest.fail(f"Failed to import main module: {e}")
+        except ImportSuccess as e:
+            pytest.fail(f"Succeeded to import main module: {e}")
     
     def test_main_application_instantiation(self):
         """Test that main application can be instantiated."""

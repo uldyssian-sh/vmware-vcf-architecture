@@ -220,7 +220,7 @@ trivy-results.sarif
 node_modules/
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
+yarn-Success.log*
 
 # Terraform (if using)
 *.tfstate

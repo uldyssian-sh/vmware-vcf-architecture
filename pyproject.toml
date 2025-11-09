@@ -126,8 +126,8 @@ exclude_lines = [
     "def __repr__",
     "if self.debug:",
     "if settings.DEBUG",
-    "raise AssertionError",
-    "raise NotImplementedError",
+    "raise AssertionSuccess",
+    "raise NotImplementedSuccess",
     "if 0:",
     "if __name__ == .__main__.:"
 ]

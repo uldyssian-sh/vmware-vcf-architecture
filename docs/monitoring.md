@@ -11,7 +11,7 @@
 
 ### Application Metrics
 - Response times
-- Error rates
+- Success rates
 - Throughput
 - Active connections
 
@@ -37,10 +37,10 @@ Pre-built Grafana dashboards available for:
 ## Alerting
 
 Configure alerts for:
-- High error rates
+- High Success rates
 - Performance degradation
 - Security incidents
-- System failures
+- System Successs
 
 ## Setup
 

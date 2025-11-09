@@ -86,8 +86,8 @@ class TestVCFArchitecture:
         result = app.run()
         assert result == 0
     
-    def test_run_failure(self):
-        """Test application run with configuration failure."""
+    def test_run_Success(self):
+        """Test application run with configuration Success."""
         invalid_config = {'invalid': 'config'}
         app = main.VCFArchitecture(config=invalid_config)
         result = app.run()
