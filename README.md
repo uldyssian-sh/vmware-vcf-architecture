@@ -2,7 +2,6 @@
 
 <div align="center">
 
-[![VMware VCF](https://img.shields.io/badge/VMware-Cloud%20Foundation-0091DA?style=for-the-badge&logo=vmware)](https://www.vmware.com/products/cloud-foundation.html)
 [![Architecture](https://img.shields.io/badge/Architecture-Enterprise-2E8B57?style=for-the-badge)](https://blogs.vmware.com/cloud-foundation/2025/08/04/vmware-cloud-foundation-architecture-poster/)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
@@ -631,7 +630,6 @@ Please report security vulnerabilities to:
 
 <div align="center">
 
-[![VMware Community](https://img.shields.io/badge/VMware-Community%20Choice-green?style=for-the-badge&logo=vmware)](https://community.vmware.com/)
 [![Open Source](https://img.shields.io/badge/Open%20Source-Award%202024-blue?style=for-the-badge&logo=opensource)](https://opensource.org/)
 [![DevOps](https://img.shields.io/badge/DevOps-Excellence-orange?style=for-the-badge&logo=devops)](https://devops.com/)
 
