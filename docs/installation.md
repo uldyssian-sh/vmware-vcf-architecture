@@ -21,3 +21,4 @@ curl -fsSL https://raw.githubusercontent.com/uldyssian-sh/vmware-vcf-architectur
 4. Start application
 
 See [README.md](../README.md) for detailed instructions.# Updated Sun Nov  9 12:49:47 CET 2025
+# Updated Sun Nov  9 12:52:31 CET 2025
