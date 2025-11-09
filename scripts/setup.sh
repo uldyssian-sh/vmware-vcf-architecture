@@ -61,4 +61,4 @@ echo "Next steps:"
 echo "1. Edit .env file with your configuration"
 echo "2. Run 'source venv/bin/activate' to activate the virtual environment"
 echo "3. Run 'python main.py --health-check' to verify installation"
-echo "4. Run 'make help' to see available commands"
+echo "4. Run 'make help' to see available commands"# Updated Sun Nov  9 12:49:47 CET 2025

@@ -50,4 +50,4 @@ docker-compose --profile monitoring up -d
 
 # Access Grafana
 http://localhost:3000
-```
+```# Updated Sun Nov  9 12:49:47 CET 2025

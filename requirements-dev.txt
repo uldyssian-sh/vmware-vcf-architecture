@@ -38,4 +38,4 @@ line-profiler>=4.1.0
 
 # API testing
 httpx>=0.25.0
-responses>=0.23.0
+responses>=0.23.0# Updated Sun Nov  9 12:49:47 CET 2025

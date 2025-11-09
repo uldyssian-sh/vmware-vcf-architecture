@@ -38,4 +38,4 @@ performance:
 monitoring:
   enable_metrics: true
   metrics_port: 9090
-  health_check_interval: 30
+  health_check_interval: 30# Updated Sun Nov  9 12:49:47 CET 2025

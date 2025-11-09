@@ -20,4 +20,4 @@ curl -fsSL https://raw.githubusercontent.com/uldyssian-sh/vmware-vcf-architectur
 3. Configure environment
 4. Start application
 
-See [README.md](../README.md) for detailed instructions.
+See [README.md](../README.md) for detailed instructions.# Updated Sun Nov  9 12:49:47 CET 2025
