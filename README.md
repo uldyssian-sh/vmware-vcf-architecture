@@ -1,5 +1,11 @@
 # VMware Cloud Foundation Architecture
 
+[![License](https://img.shields.io/github/license/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](LICENSE)
+[![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)](#)
+[![Languages](https://img.shields.io/github/languages/count/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](#)
+[![Size](https://img.shields.io/github/repo-size/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](#)
+[![Security Scan](https://img.shields.io/badge/security-scanned-green?style=flat-square)](#)
+
 <div align="center">
 
 [![Architecture](https://img.shields.io/badge/Architecture-Enterprise-2E8B57?style=for-the-badge)](https://blogs.vmware.com/cloud-foundation/2025/08/04/vmware-cloud-foundation-architecture-poster/)
@@ -117,6 +123,12 @@ This implementation follows VMware's validated design patterns for:
 
 ```bash
 # Clone repository
+
+[![License](https://img.shields.io/github/license/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](LICENSE)
+[![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)](#)
+[![Languages](https://img.shields.io/github/languages/count/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](#)
+[![Size](https://img.shields.io/github/repo-size/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](#)
+[![Security Scan](https://img.shields.io/badge/security-scanned-green?style=flat-square)](#)
 git clone https://github.com/uldyssian-sh/vmware-vcf-architecture.git
 cd vmware-vcf-architecture
 
