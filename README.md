@@ -217,9 +217,6 @@ workload_domains:
 
 ## 🔧 Implementation Examples
 
-<details>
-<summary><strong>Code Examples</strong></summary>
-
 ### 🐍 **Python API Usage**
 
 ```python
@@ -385,12 +382,7 @@ spec:
           periodSeconds: 5
 ```
 
-</details>
-
 ## ✅ Validation & Testing
-
-<details>
-<summary><strong>Testing Framework</strong></summary>
 
 ### 🔬 **Test Categories**
 
@@ -448,17 +440,12 @@ pytest tests/property/ --hypothesis-show-statistics
 - **Performance Report**: `benchmark-results.json`
 - **Security Report**: `security-report.html`
 
-</details>
-
 ## 🤝 Professional Services & Support
 
 <div align="center">
 
 **We welcome contributions from the community! 🎉**
 </div>
-
-<details>
-<summary><strong>🚀 Quick Contribution Guide</strong></summary>
 
 ### 🛠️ **Development Setup**
 
@@ -528,12 +515,7 @@ New to the project? Look for issues labeled [`good first issue`](https://github.
 - 🐛 [Issues](https://github.com/uldyssian-sh/vmware-vcf-architecture/issues) - Bug reports and feature requests
 - 📧 [Email](mailto:noreply@github.com) - Security issues (private)
 
-</details>
-
 ## 🛡️ Security & Compliance
-
-<details>
-<summary><strong>Security Information</strong></summary>
 
 ### 🛡️ **Security Features**
 
@@ -558,12 +540,7 @@ Please report security vulnerabilities to:
 - ✅ SOC 2 Type II Ready
 - ✅ ISO 27001 Aligned
 
-</details>
-
 ## 📊 Operations & Monitoring
-
-<details>
-<summary><strong>Observability Stack</strong></summary>
 
 ### 📈 **Available Metrics**
 
@@ -587,8 +564,6 @@ Please report security vulnerabilities to:
 | **Uptime** | 99.9% | 99.95% |
 | **Success Rate** | < 0.1% | 0.05% |
 | **Throughput** | 1000 req/s | 1200 req/s |
-
-</details>
 
 
 
