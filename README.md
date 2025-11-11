@@ -6,6 +6,12 @@
 [![Size](https://img.shields.io/github/repo-size/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](#)
 [![Security Scan](https://img.shields.io/badge/security-scanned-green?style=flat-square)](#)
 
+[![License](https://img.shields.io/github/license/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](LICENSE)
+[![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)](#)
+[![Languages](https://img.shields.io/github/languages/count/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](#)
+[![Size](https://img.shields.io/github/repo-size/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](#)
+[![Security Scan](https://img.shields.io/badge/security-scanned-green?style=flat-square)](#)
+
 <div align="center">
 
 [![Architecture](https://img.shields.io/badge/Architecture-Enterprise-2E8B57?style=for-the-badge)](https://blogs.vmware.com/cloud-foundation/2025/08/04/vmware-cloud-foundation-architecture-poster/)
@@ -693,17 +699,9 @@ copies or substantial portions of the Software.
 
 <div align="center">
 
-![GitHub repo size](https://img.shields.io/github/repo-size/uldyssian-sh/vmware-vcf-architecture?style=for-the-badge)
-![GitHub code size](https://img.shields.io/github/languages/code-size/uldyssian-sh/vmware-vcf-architecture?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/uldyssian-sh/vmware-vcf-architecture?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/uldyssian-sh/vmware-vcf-architecture?style=for-the-badge)
 
 ### 📊 **Development Activity**
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/uldyssian-sh/vmware-vcf-architecture?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/uldyssian-sh/vmware-vcf-architecture?style=for-the-badge)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/uldyssian-sh/vmware-vcf-architecture?style=for-the-badge)
-![GitHub release](https://img.shields.io/github/v/release/uldyssian-sh/vmware-vcf-architecture?style=for-the-badge)
 
 </div>
 
