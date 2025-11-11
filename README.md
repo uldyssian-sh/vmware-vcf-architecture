@@ -1,24 +1,5 @@
 # VMware Cloud Foundation Architecture
-
-[![License](https://img.shields.io/github/license/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)](#)
-[![Languages](https://img.shields.io/github/languages/count/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](#)
-[![Size](https://img.shields.io/github/repo-size/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](#)
-[![Security Scan](https://img.shields.io/badge/security-scanned-green?style=flat-square)](#)
-[![License](https://img.shields.io/github/license/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)](#)
-[![Languages](https://img.shields.io/github/languages/count/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](#)
-[![Size](https://img.shields.io/github/repo-size/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](#)
-[![Security Scan](https://img.shields.io/badge/security-scanned-green?style=flat-square)](#)
-
 <div align="center">
-
-[![Architecture](https://img.shields.io/badge/Architecture-Enterprise-2E8B57?style=for-the-badge)](https://blogs.vmware.com/cloud-foundation/2025/08/04/vmware-cloud-foundation-architecture-poster/)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
-
-[![CI](https://img.shields.io/github/actions/workflow/status/uldyssian-sh/vmware-vcf-architecture/ci.yml?branch=main&style=for-the-badge&label=CI)](https://github.com/uldyssian-sh/vmware-vcf-architecture/actions)
-[![Security](https://img.shields.io/github/actions/workflow/status/uldyssian-sh/vmware-vcf-architecture/security.yml?branch=main&style=for-the-badge&label=Security)](https://github.com/uldyssian-sh/vmware-vcf-architecture/actions)
-[![Quality](https://img.shields.io/badge/Quality-Enterprise-gold?style=for-the-badge)](https://github.com/uldyssian-sh/vmware-vcf-architecture)
 
 **Professional VMware Cloud Foundation Architecture Reference Implementation**
 
@@ -128,18 +109,6 @@ This implementation follows VMware's validated design patterns for:
 
 ```bash
 # Clone repository
-
-[![License](https://img.shields.io/github/license/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)](#)
-[![Languages](https://img.shields.io/github/languages/count/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](#)
-[![Size](https://img.shields.io/github/repo-size/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](#)
-[![Security Scan](https://img.shields.io/badge/security-scanned-green?style=flat-square)](#)
-
-[![License](https://img.shields.io/github/license/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)](#)
-[![Languages](https://img.shields.io/github/languages/count/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](#)
-[![Size](https://img.shields.io/github/repo-size/uldyssian-sh/vmware-vcf-architecture?style=flat-square)](#)
-[![Security Scan](https://img.shields.io/badge/security-scanned-green?style=flat-square)](#)
 git clone https://github.com/uldyssian-sh/vmware-vcf-architecture.git
 cd vmware-vcf-architecture
 
@@ -453,8 +422,6 @@ pytest --cov=. --cov-report=html --cov-report=term
 # Run performance benchmarks
 pytest tests/performance/ --benchmark-only
 ```
-
-
 ### 🔍 **Advanced Testing**
 
 ```bash
@@ -488,11 +455,6 @@ pytest tests/property/ --hypothesis-show-statistics
 <div align="center">
 
 **We welcome contributions from the community! 🎉**
-
-[![Contributors](https://img.shields.io/github/contributors/uldyssian-sh/vmware-vcf-architecture?style=for-the-badge)](https://github.com/uldyssian-sh/vmware-vcf-architecture/graphs/contributors)
-[![Pull Requests](https://img.shields.io/github/issues-pr/uldyssian-sh/vmware-vcf-architecture?style=for-the-badge)](https://github.com/uldyssian-sh/vmware-vcf-architecture/pulls)
-[![Good First Issues](https://img.shields.io/github/issues/uldyssian-sh/vmware-vcf-architecture/good%20first%20issue?style=for-the-badge&color=green)](https://github.com/uldyssian-sh/vmware-vcf-architecture/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
-
 </div>
 
 <details>
@@ -633,11 +595,6 @@ Please report security vulnerabilities to:
 <div align="center">
 
 ### 💬 **Get Help & Connect**
-
-[![Discord](https://img.shields.io/badge/Discord-Join%20Community-7289da?style=for-the-badge&logo=discord)](https://discord.gg/vmware-community)
-[![Discussions](https://img.shields.io/badge/GitHub-Discussions-181717?style=for-the-badge&logo=github)](https://github.com/uldyssian-sh/vmware-vcf-architecture/discussions)
-[![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-Ask%20Question-f48024?style=for-the-badge&logo=stackoverflow)](https://stackoverflow.com/questions/tagged/vmware-vcf-architecture)
-
 ### 📞 **Support Channels**
 
 | Channel | Response Time | Best For |
@@ -652,10 +609,6 @@ Please report security vulnerabilities to:
 ## 🏆 VMware Validation
 
 <div align="center">
-
-[![Open Source](https://img.shields.io/badge/Open%20Source-Award%202024-blue?style=for-the-badge&logo=opensource)](https://opensource.org/)
-[![DevOps](https://img.shields.io/badge/DevOps-Excellence-orange?style=for-the-badge&logo=devops)](https://devops.com/)
-
 </div>
 
 ## 📄 Licensing
@@ -690,24 +643,12 @@ copies or substantial portions of the Software.
 - **Open Source Contributors** - Code contributions and improvements
 
 ### 🛠️ **Built With**
-
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com/)
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
-[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
-[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://prometheus.io/)
-[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com/)
-
 </div>
 
 ## 📈 Architecture Metrics
 
 <div align="center">
-
-
 ### 📊 **Development Activity**
-
-
 </div>
 
 ---
@@ -715,11 +656,6 @@ copies or substantial portions of the Software.
 <div align="center">
 
 **🚀 Made with ❤️ by [uldyssian-sh](https://github.com/uldyssian-sh)**
-
-[![Follow](https://img.shields.io/github/followers/uldyssian-sh?style=social)](https://github.com/uldyssian-sh)
-[![Star](https://img.shields.io/github/stars/uldyssian-sh/vmware-vcf-architecture?style=social)](https://github.com/uldyssian-sh/vmware-vcf-architecture)
-[![Watch](https://img.shields.io/github/watchers/uldyssian-sh/vmware-vcf-architecture?style=social)](https://github.com/uldyssian-sh/vmware-vcf-architecture)
-
 *Last updated: September 18, 2024 | Version: 1.0.0 | Status: ✅ Production Ready*
 
 </div>
