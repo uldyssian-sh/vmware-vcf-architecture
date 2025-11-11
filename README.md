@@ -567,10 +567,7 @@ Please report security vulnerabilities to:
 
 
 
-## 🏆 VMware Validation
 
-<div align="center">
-</div>
 
 ## 📄 Licensing
 
