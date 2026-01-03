@@ -244,3 +244,7 @@ vmware-vcf-architecture.log
 *.nvram
 *.vmss
 *.vmsn
+
+# Security - Sensitive Files
+config.json
+secrets.json
